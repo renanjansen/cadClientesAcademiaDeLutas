@@ -1,0 +1,15 @@
+body{
+  
+  color: white;
+  background-color: black;
+
+ }
+ main{
+   text-align: center;
+   
+ }
+ li{
+   list-style: none;
+   position: center;
+   padding: 0 auto;
+ }
