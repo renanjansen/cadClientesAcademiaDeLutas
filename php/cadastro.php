@@ -34,5 +34,6 @@ $prepare-> execute();
 if ($prepare->rowCount()) {
 
     echo "<h3>Cadastro realizado com sucesso!</h3><br>";
+    include 'listaDeAlunos.php';
     
 }

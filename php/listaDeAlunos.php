@@ -17,6 +17,8 @@
             <a href="../cadastro.html">Cadastro de alunos</a>
             <a href="../planos.html">Planos de atividades</a>
             <a href="listaDeAlunos.php">Lista de Alunos cadastrados</a>
+            <a href="exclui_cadastro.php">Excluir Aluno cadastrado</a>
+        
         </div>
     </header>
     <main>
@@ -28,13 +30,16 @@
 
             foreach ($conect->query($sql) as $value) {
    
-                echo '<h1>'.$value['nomeAluno'].'</h1>';
+                echo "<h1>Número de cadastro : ".$value['idaluno'].
+                " ".$value['nomeAluno']."</h1>";
+
             }
+            
             ?>
         </div>
     </main>
 </body>
 <script src="../js/menu.js"></script>
-<script src="../js/cadastro.js"></script>
+<script src="../Js/cadastro.js"></script>
 
 </html>
