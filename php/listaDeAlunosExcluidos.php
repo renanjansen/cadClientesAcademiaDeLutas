@@ -19,7 +19,7 @@
             <a href="listaDeAlunos.php">Lista de Alunos cadastrados</a>
             <a href="exclui_cadastro.php">Excluir Aluno cadastrado</a>
             <a href="listaDeAlunosExcluidos.php">Lista de Alunos excluídos</a>
-            <a href="exclui_cadastro.php">Reinsere Aluno cadastrado</a>
+            <a href="inclui_cadastro.php">Reinsere Aluno cadastrado</a>
           
         </div>
     </header>
@@ -28,7 +28,7 @@
             <?php
 
                 $conect = include 'conect.php';
-                $sql = "SELECT * FROM aluno";
+                $sql = "SELECT * FROM alunoexcluido";
 
             foreach ($conect->query($sql) as $value) {
    
