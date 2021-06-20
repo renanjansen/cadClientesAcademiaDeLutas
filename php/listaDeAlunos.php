@@ -20,6 +20,7 @@
             <a href="exclui_cadastro.php">Excluir Aluno cadastrado</a>
             <a href="listaDeAlunosExcluidos.php">Lista de Alunos excluídos</a>
             <a href="exclui_cadastro.php">Reinsere Aluno cadastrado</a>
+            <a href="altera_cadastro.php">Altera Alunos cadastrados</a>
           
         </div>
     </header>
