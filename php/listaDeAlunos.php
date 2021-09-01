@@ -17,7 +17,7 @@
 
 <body class="bg-dark text-light">
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">CadSystem</a>
                 <button class="navbar-toggler"
@@ -51,7 +51,7 @@
 
     </header>
     <main>
-        <div id="lista">
+        <ul class="list-group">
             <?php
 
                 $conect = include 'conect.php';
@@ -59,7 +59,9 @@
 
             foreach ($conect->query($sql) as $value) {
    
-                echo "<br><br>Número de cadastro : ".$value['idaluno'].
+                echo 
+                "<li class='list-group-item bg-info shadow-lg p-2 mb-1 rounded '>
+                Número de cadastro : ".$value['idaluno'].
                 "<br>Nome do aluno: ".$value['nomeAluno'].
                 "<br>Email do aluno: "
                 .$value['emailAluno'].
@@ -71,12 +73,12 @@
                 .$value['modalidadeAluno'].
                 "<br>Vencimento do aluno: "
                 .$value['vencimentoAluno'].
-                "<hr>";
+                "</li>";
 
             }
             
             ?>
-        </div>
+        </ul>
     </main>
 </body>
 <script src="../js/menu.js"></script>
