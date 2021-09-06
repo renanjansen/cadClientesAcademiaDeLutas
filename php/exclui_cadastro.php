@@ -12,7 +12,7 @@ require 'listaDeAlunos.php';
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="../css/cadastro.css" rel="stylesheet">
+    <link href="../Css/cadastro.css" rel="stylesheet">
     <title>Formulário de exclusão</title>
 </head>
 
@@ -28,13 +28,16 @@ require 'listaDeAlunos.php';
             <input type="number" name="idaluno" id="idaluno">
             <div>
                 <div>
-                    <button type="submit" id="excluir">Excluir</button>
+                    <button type="submit" id="excluir" 
+                    class="btn btn-outline-light m-5">Excluir</button>
                 </div>
 
     </form>
 
     <script src="../Js/menu.js"></script>
     <script src="../Js/cadastro.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  
 </body>
 
 </html>

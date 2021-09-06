@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
      <link href="css/menu.css" rel="stylesheet">
-     <link href="css/cadastro.css" rel="stylesheet">
+     <link href="./Css/cadastro.css" rel="stylesheet">
      <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -37,52 +37,68 @@
       </div>
     </nav>
   </header>
- 
-    <form method="POST" action="php/cadastro.php" enctype="multipart/form-data">
-      <div>
-        <label for="nome">Nome: </label>
-        <input type="text" id="nome" name="nomeAluno">
-      </div>
-      <div>
-        <label for="email">E-mail: </label>
-        <input type="text" id="email" name="emailAluno">
-      </div>
-      <div>
-        <label for="telefone">Telefone: </label>
-        <input type="tel" id="telefoneAluno" name="telefoneAluno">
-      </div>
-      <div>
-       <div>
-         <p>Turno :</p>
-        <input type="radio" name="turnoAluno" id="manha" value="manha">
-        <label for="manha">Manhã</label></br>
-        <input type="radio" id="tarde" name="turnoAluno" value="tarde">
-        <label for="tarde">Tarde</label></br>
-        <input type="radio" name="turnoAluno" id="noite" value="noite">
-        <label for="noite">Noite</label>
-      </div>
-      <div>
-         <p>Modalidade: </p>
-        <input type="radio" name="modalidadeAluno" id="karate" value="karate">
-        <label for="karate">Karatê</label></br>
-        <input type="radio" name="modalidadeAluno" id="judo"  value="judo">
-        <label for="judo">Judô</label></br>
-        <input type="radio" name="modalidadeAluno" id="jiu-jitsu" value="jiu-jitsu">
-        <label for="Jiu-jitsu">Jiu-jitsu</label>
-      </div>
-      <div>
-        <label form="vencimento">Vencimento:</label>
-        <input type="number" name="vencimentoAluno" id="vencimento">
-      </div>
-      <div>
-        <button type="submit" id="cadastrar">Cadastrar</button>
-      </div>
-    </form>
+ <div class="conteiner p-5">
+  <form method="POST" action="php/cadastro.php" enctype="multipart/form-data">
+    <div>
+      <label for="nome">Nome: </label>
+      <input type="text" id="nome" name="nomeAluno">
+    </div>
+    <div>
+      <label for="email">E-mail: </label>
+      <input type="text" id="email" name="emailAluno">
+    </div>
+    <div>
+      <label for="telefone">Telefone: </label>
+      <input type="tel" id="telefoneAluno" name="telefoneAluno">
+    </div>
+    <div>
+     <div>
+       <p>Turno :</p>
+      <input type="radio" name="turnoAluno" id="manha" value="manha">
+      <label for="manha">Manhã</label></br>
+      <input type="radio" id="tarde" name="turnoAluno" value="tarde">
+      <label for="tarde">Tarde</label></br>
+      <input type="radio" name="turnoAluno" id="noite" value="noite">
+      <label for="noite">Noite</label>
+    </div>
+    <div>
+       <p>Modalidade: </p>
+      <input type="radio" name="modalidadeAluno" id="karate" value="karate">
+      <label for="karate">Karatê</label></br>
+      <input type="radio" name="modalidadeAluno" id="judo"  value="judo">
+      <label for="judo">Judô</label></br>
+      <input type="radio" name="modalidadeAluno" id="jiu-jitsu" value="jiu-jitsu">
+      <label for="Jiu-jitsu">Jiu-jitsu</label>
+    </div>
+    <div>
+      <label form="vencimento">Vencimento:</label>
+      <input type="number" name="vencimentoAluno" id="vencimento">
+    </div>
+    <div class="conteiner">
+      <button type="submit" id="cadastrar" class="btn btn-outline-light m-5">Cadastrar</button>
+
+    </div>
+    
+      
+    
+  </form>
+ </div>
+    
      <ul id= "lista"></ul>
+     <footer class="bg-dark text-center text-lg-start fixed-bottom">
+      <!-- Copyright -->
+      <div class="text-center p-3">
+        © 2021 Copyright:
+        <a class="text-light" href="https://github.com/renanjansen"
+          >Renan Jansen</a
+        >
+      </div>
+      <!-- Copyright -->
+    </footer>
   
 </body>
-  <script src="Js/menu.js"></script>
-  <script src="Js/cadastro.js"></script>
-  
-  
+<script src="js/menu.js"></script>
+<script src="js/cadastro.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 </html>

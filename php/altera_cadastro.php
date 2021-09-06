@@ -9,18 +9,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../css/cadastro.css" rel="stylesheet">
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity=
-      "sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
+    <link href="../Css/cadastro.css" rel="stylesheet">
+    <link href=
+    "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+     rel="stylesheet"
+        integrity=
+        "sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+         crossorigin="anonymous" />
     <title>Altera cadastro</title>
 </head>
 
-<body class="bg-dark text-light" >
+<body class="bg-dark text-light">
     <form method="POST" action="alteracao.php" enctype="multipart/form-data">
         <div>
             <label form="idaluno">
@@ -51,14 +50,13 @@
             </div>
             <div>
                 <p>Modalidade: </p>
-                <input type="radio" name="modalidadeAluno" id="karate" 
-                value="karate">
+                <input type="radio" name="modalidadeAluno"
+                 id="karate" value="karate">
                 <label for="karate">Karatê</label></br>
-                <input type="radio" name="modalidadeAluno" id="judo" 
-                value="judo">
+                <input type="radio" name="modalidadeAluno" id="judo" value="judo">
                 <label for="judo">Judô</label></br>
-                <input type="radio" name="modalidadeAluno" id="jiu-jitsu" 
-                value="jiu-jitsu">
+                <input type="radio" name="modalidadeAluno"
+                 id="jiu-jitsu" value="jiu-jitsu">
                 <label for="Jiu-jitsu">Jiu-jitsu</label>
             </div>
             <div>
@@ -66,9 +64,20 @@
                 <input type="number" name="vencimentoAluno" id="vencimento">
             </div>
             <div>
-                <button type="submit" id="cadastrar">Cadastrar</button>
+                <button type="submit" id="cadastrar"
+                 class="btn btn-outline-light m-5">Alterar</button>
             </div>
     </form>
+    <footer class="bg-dark text-center text-lg-start fixed-bottom">
+        <!-- Copyright -->
+        <div class="text-center p-3">
+          © 2021 Copyright:
+          <a class="text-light" href="https://github.com/renanjansen"
+            >Renan Jansen</a
+          >
+        </div>
+        <!-- Copyright -->
+      </footer>
 
 </body>
 

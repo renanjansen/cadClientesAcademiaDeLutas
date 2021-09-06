@@ -6,8 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="../css/menu.css" rel="stylesheet">
     <link href="../css/listadecadastro.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link href=
+    "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet"
+        integrity=
+        "sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+         crossorigin="anonymous" />
 
     <title>Lista de cadastro</title>
 
@@ -34,9 +38,9 @@
                     <div class="navbar-nav">
                         <a class="nav-link" href="../index.html">Home</a>
                         <a class="nav-link" href="../cadastro.html">
-                        Cadastro de alunos</a>
+                            Cadastro de alunos</a>
                         <a class="nav-link" href="../planos.html">
-                        Planos de atividades</a>
+                            Planos de atividades</a>
                         <a class="nav-link" href="listaDeAlunos.php">
                             Lista de Alunos cadastrados</a>
                         <a class="nav-link" href="altera_cadastro.php">
@@ -52,7 +56,7 @@
         </nav>
     </header>
     <main>
-    <ul class="list-group">
+        <ul class="list-group">
             <?php
 
                 $conect = include 'conect.php';
@@ -81,9 +85,22 @@
             
             ?>
         </ul>
+     
     </main>
+    <footer class="bg-dark text-center text-lg-start fixed-bottom">
+        <!-- Copyright -->
+        <div class="text-center p-3">
+            © 2021 Copyright:
+            <a class="text-light" href="https://github.com/renanjansen">
+            Renan Jansen</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   
 </body>
-<script src="../js/menu.js"></script>
-<script src="../Js/cadastro.js"></script>
+
+
+
 
 </html>

@@ -16,15 +16,18 @@
       "sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-     <link href="../css/cadastro.css" rel="stylesheet">
+     <link href="../Css/cadastro.css" rel="stylesheet">
      <title>Formulário de exclusão</title>
  </head>
  <body>
+     
+ 
 
  <form method="POST" action="inclusao.php" enctype="multipart/form-data" id="formEx">
  <div >
     <label form="idaluno">
-    Número de aluno a excluir:</label>
+        Número de aluno a excluir:
+    </label>
     <input type="number" name="idaluno" id="idaluno">
 <div>
 <div>
