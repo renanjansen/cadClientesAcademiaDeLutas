@@ -24,44 +24,48 @@
         <div>
             <label form="idaluno">
                 Número de aluno a alterar:</label>
-            <input type="number" name="idaluno" id="idaluno">
+            <input type="number" name="idaluno" id="idaluno" required>
         </div>
         <div>
             <label for="nome">Nome: </label>
-            <input type="text" id="nome" name="nomeAluno">
+            <input type="text" id="nome" name="nomeAluno" required>
         </div>
         <div>
             <label for="email">E-mail: </label>
-            <input type="text" id="email" name="emailAluno">
+            <input type="text" id="email" name="emailAluno" required>
         </div>
         <div>
             <label for="telefone">Telefone: </label>
-            <input type="tel" id="telefoneAluno" name="telefoneAluno">
+            <input type="tel" id="telefoneAluno" name="telefoneAluno" required>
         </div>
         <div>
             <div>
                 <p>Turno :</p>
-                <input type="radio" name="turnoAluno" id="manha" value="manha">
+                <input type="radio" name="turnoAluno" id="manha"
+                 value="manha" required>
                 <label for="manha">Manhã</label></br>
-                <input type="radio" id="tarde" name="turnoAluno" value="tarde">
+                <input type="radio" id="tarde" name="turnoAluno"
+                 value="tarde" required>
                 <label for="tarde">Tarde</label></br>
-                <input type="radio" name="turnoAluno" id="noite" value="noite">
+                <input type="radio" name="turnoAluno" id="noite"
+                 value="noite" required>
                 <label for="noite">Noite</label>
             </div>
             <div>
                 <p>Modalidade: </p>
                 <input type="radio" name="modalidadeAluno"
-                 id="karate" value="karate">
+                 id="karate" value="karate" required>
                 <label for="karate">Karatê</label></br>
-                <input type="radio" name="modalidadeAluno" id="judo" value="judo">
+                <input type="radio" name="modalidadeAluno" id="judo"
+                 value="judo" required>
                 <label for="judo">Judô</label></br>
                 <input type="radio" name="modalidadeAluno"
-                 id="jiu-jitsu" value="jiu-jitsu">
+                 id="jiu-jitsu" value="jiu-jitsu" required>
                 <label for="Jiu-jitsu">Jiu-jitsu</label>
             </div>
             <div>
                 <label form="vencimento">Vencimento:</label>
-                <input type="number" name="vencimentoAluno" id="vencimento">
+                <input type="number" name="vencimentoAluno" id="vencimento" required>
             </div>
             <div>
                 <button type="submit" id="cadastrar"

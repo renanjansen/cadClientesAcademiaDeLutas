@@ -28,7 +28,7 @@
     <label form="idaluno">
         Número de aluno a excluir:
     </label>
-    <input type="number" name="idaluno" id="idaluno">
+    <input type="number" name="idaluno" id="idaluno" required>
 <div>
 <div>
         <button type="submit" id="reincluir">Reincluir</button>
